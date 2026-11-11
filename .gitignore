@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.DS_Store
+.crawl-state.json
+.crawl-state.tmp
+sitemap.tmp
