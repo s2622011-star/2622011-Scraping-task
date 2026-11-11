@@ -4,12 +4,12 @@
 
 ## 実行方法
 
-Python 3.9以降を使用します。
+第4回の授業資料と同様に、`uv` で仮想環境を作り、requestsとBeautiful Soupを入れます。
 
 ```sh
-python3 -m venv .venv
+uv venv
 source .venv/bin/activate
-python -m pip install -r requirements.txt
+uv pip install -r requirements.txt
 python scrape.py
 ```
 
